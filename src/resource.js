@@ -38,11 +38,11 @@ class Resource extends BaseResource {
   }
 
   name() {
-    return this.SequelizeModel.tableName
+    return this.SequelizeModel.name
   }
 
   id() {
-    return this.SequelizeModel.tableName
+    return this.SequelizeModel.name
   }
 
   properties() {
